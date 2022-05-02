@@ -1,0 +1,75 @@
+
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ .header{
+     min-height: 60vh;
+     position: relative;
+ }
+
+ .container{
+     max-width: 1200px;
+     margin: auto;
+     width: 90%;
+ }
+
+ .nav{
+     min-height: 8vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+.nav-item{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: blod;
+}
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+}
+.form-todo{
+    /* border: 2px solid red; */
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.form-todo input{
+     min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+}
+.form-todo input[type="submit"]
+{
+    width: 20%;
+}
